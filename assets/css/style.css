@@ -1,0 +1,66 @@
+/*
+   FONTS
+*/
+
+
+html, body{
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+h1{
+    font-family: pacific;
+    font-size: calc( 18px + ( 30 -18 ) * ( 100vw - 320px ) / ( 1920 - 320 ) );
+    margin-top: -40px;
+    letter-spacing: 8px;
+}
+
+h2{
+    font-family: monsterrat;
+    font-size:  calc( 14px + ( 22 -14 ) * ( 100vw - 320px ) / ( 1920 - 320 ) );
+    margin-top: 140px;
+}
+
+.nk-logo{
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.yt{
+    width: 20.8px;
+    flex:.1;
+    margin-right: -20px;
+}
+
+.nk{
+    width: 79.2spx;
+    flex: 1;
+}
+
+.nk a{
+    text-decoration: none;
+    color: rgb(207, 6, 6);
+}
+
+.nk a:hover{
+    text-decoration: underline;
+}
+
+.youtube{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    gap:0;
+    
+}
+
+footer{
+    margin-top: 3vh;
+}
+
+@media screen and (max-width: 650px) {
+    .nk-logo{
+        width: 400px;
+    }
+}
