@@ -22,7 +22,7 @@ h1{
 h2{
     font-family: monsterrat;
     font-size:  25px;
-    margin-top: 140px;
+    margin-top: 110px;
     letter-spacing: 3px;
 }
 
@@ -36,62 +36,25 @@ h3{
     user-select: none;
 }
 
-.yt{
-    width: 20.8px;
-    flex:.1;
-    margin-right: -20px;
-}
-
-.nk{
-    width: 79.2spx;
-    flex: 1;
-}
-
-.nk a{
-    text-decoration: none;
-    color: rgb(207, 6, 6);
-    font-weight: bold;
-}
-
-.nk a:hover{
-    text-decoration: underline;
-}
-
-.youtube, .twitter{
-    margin-left: 20px;
+.SM{
+    display: flex;
+    margin-left: ;
+    width: 90px;
+    gap:30px;
+    margin-top: -16px;
 }
 
 .youtube{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
-    gap:0;
-    margin-top: -16px;
+    color: RED;
 }
 
 .twitter{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 190px;
-    gap:2x;
-    margin-top: -16px;
-    color: blue;
+    color: #02a8f3;
 }
 
-.twitter .nk a{
-    text-decoration: none;
-    color: rgba(2,167,240,255);
-    font-weight: bold;
-}
-
-.twitter .nk a:hover{
-    text-decoration: underline;
-}
-
-.twitter .yt{
-    flex:0.2;
+.youtube:hover, .twitter:hover{
+    color: grey;
+    transition: 1s;
 }
 
 footer{
@@ -105,7 +68,7 @@ footer{
     line-height: 1.4;
     font-weight: 600;
     font-size: 18px;
-    margin: auto;
+    margin: 60px auto 0 auto;
     padding: 14px;
 }
 
@@ -143,7 +106,7 @@ footer{
 .curly1, .curly2{
     font-size: 105px;
     position: absolute;
-    top: 830px;
+    top: 810px;
     font-family: yantramanav-thin;
     font-weight:300;
 }
@@ -187,11 +150,14 @@ footer{
 }
 
 @media screen and (max-width: 650px) {
+    h2{
+        margin-top: 100px;
+    }
     .nk-logo{
         width: 400px;
     }
     .curly1, .curly2 {
-        top: 600px;
+        top: 560px;
     }
     .curly1{
         left: 20%;
@@ -213,6 +179,13 @@ footer{
 }
 
 @media screen and (max-width: 400px) {
+    .SM{
+        margin-left: 40%;
+        margin-right: 60%;
+    }
+    h2{
+        margin-top: 80px;
+    }
     .nk-logo{
         width: 300px;
     }
@@ -223,7 +196,7 @@ footer{
         width: 200px;
     }
     .curly1, .curly2 {
-        top: 485px;
+        top: 425px;
         font-size: 115px;
     }
     .curly1{
