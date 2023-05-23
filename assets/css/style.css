@@ -17,7 +17,7 @@ h1{
 
 h2{
     font-family: monsterrat;
-    font-size:  calc( 14px + ( 22 -14 ) * ( 100vw - 320px ) / ( 1920 - 320 ) );
+    font-size:  25px;
     margin-top: 140px;
     letter-spacing: 3px;
 }
@@ -63,18 +63,124 @@ h3{
 
 footer{
     margin-top: 6vh;
+    margin-bottom: 6vh;
 }
 
 .knownk{
-    font-family: Oxygen;
+    font-family: yantramanav;
+    width: 350px;
+    line-height: 1.4;
     font-weight: 600;
     font-size: 18px;
     margin: auto;
-    padding: 10px;
+    padding: 14px;
+}
+
+.bs1{
+    margin-top: 5vh;
+    font-family: yantramanav;
+    font-weight: 500;
+    width: 350px;
+}
+
+.bs2{
+    font-family:  yantramanav-thin;
+    font-weight: 800;
+    margin-top: 6vh;
+}
+
+.mumbai{
+    margin-top: 40px;
+    font-family: yantramanav-thin;
+    font-weight: bolder;
+    line-height: 30px;
+}
+
+.mumbai span{
+    letter-spacing: 35px;
+    font-weight: bolder;
+}
+
+.curly1, .curly2{
+    font-size: 55px;
+    position: absolute;
+    top: 84vh;
+    font-family: yantramanav-thin;
+    font-weight:500;
+}
+
+.curly1{
+    left: 38%;
+}
+
+.curly2{
+    right: 38%;
+}
+
+@media screen and (max-width: 1190px)  {
+    .curly1{
+        left: 35%;
+    }
+    
+    .curly2{
+        right: 35%;
+    }
+}
+
+@media screen and (max-width: 1000px)  {
+    .curly1{
+        left: 32%;
+    }
+    
+    .curly2{
+        right: 32%;
+    }
+}
+
+@media screen and (max-width: 800px)  {
+    .curly1{
+        left: 30%;
+    }
+    
+    .curly2{
+        right: 30%;
+    }
 }
 
 @media screen and (max-width: 650px) {
     .nk-logo{
         width: 400px;
+    }
+    .curly1, .curly2 {
+        top: 60vh;
+    }
+    .curly1{
+        left: 20%;
+    }
+    
+    .curly2{
+        right: 20%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nk-logo{
+        width: 300px;
+    }
+    .knownk{
+        width: 200px;
+    }
+    .bs1{
+        width: 200px;
+    }
+    .curly1, .curly2 {
+        top: 50vh;
+    }
+    .curly1{
+        left: 10%;
+    }
+    
+    .curly2{
+        right: 10%;
     }
 }
