@@ -110,7 +110,7 @@ footer{
 .curly1, .curly2{
     font-size: 105px;
     position: absolute;
-    top: 83vh;
+    top: 830px;
     font-family: yantramanav-thin;
     font-weight:300;
 }
@@ -158,7 +158,7 @@ footer{
         width: 400px;
     }
     .curly1, .curly2 {
-        top: 60vh;
+        top: 600px;
     }
     .curly1{
         left: 20%;
@@ -166,6 +166,16 @@ footer{
     
     .curly2{
         right: 20%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .curly1{
+        left: 15%;
+    }
+    
+    .curly2{
+        right: 15%;
     }
 }
 
@@ -180,7 +190,8 @@ footer{
         width: 200px;
     }
     .curly1, .curly2 {
-        top: 50vh;
+        top: 485px;
+        font-size: 115px;
     }
     .curly1{
         left: 10%;
@@ -188,5 +199,15 @@ footer{
     
     .curly2{
         right: 10%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .curly1{
+        left: 6%;
+    }
+    
+    .curly2{
+        right: 6%;
     }
 }
