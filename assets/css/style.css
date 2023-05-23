@@ -19,6 +19,11 @@ h2{
     font-family: monsterrat;
     font-size:  calc( 14px + ( 22 -14 ) * ( 100vw - 320px ) / ( 1920 - 320 ) );
     margin-top: 140px;
+    letter-spacing: 3px;
+}
+
+h3{
+    font-family: Hind;
 }
 
 .nk-logo{
@@ -40,6 +45,7 @@ h2{
 .nk a{
     text-decoration: none;
     color: rgb(207, 6, 6);
+    font-weight: bold;
 }
 
 .nk a:hover{
@@ -52,11 +58,19 @@ h2{
     margin-right: auto;
     width: 150px;
     gap:0;
-    
+    margin-top: -16px;
 }
 
 footer{
-    margin-top: 3vh;
+    margin-top: 6vh;
+}
+
+.knownk{
+    font-family: Oxygen;
+    font-weight: 600;
+    font-size: 18px;
+    margin: auto;
+    padding: 10px;
 }
 
 @media screen and (max-width: 650px) {
