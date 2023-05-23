@@ -101,12 +101,18 @@ footer{
     font-weight: bolder;
 }
 
+.india {
+    width: 40px;
+    height: auto;
+    margin: 0 0 40px 0;
+}
+
 .curly1, .curly2{
-    font-size: 55px;
+    font-size: 105px;
     position: absolute;
-    top: 84vh;
+    top: 83vh;
     font-family: yantramanav-thin;
-    font-weight:500;
+    font-weight:300;
 }
 
 .curly1{
