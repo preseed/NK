@@ -8,6 +8,10 @@ html, body{
     padding: 20px 0 0 0;
 }
 
+h1, h2, h3, p, .curly1, .curly2{
+    user-select: none;
+}
+
 h1{
     font-family: pacific;
     font-size: calc( 18px + ( 30 -18 ) * ( 100vw - 320px ) / ( 1920 - 320 ) );
@@ -24,6 +28,7 @@ h2{
 
 h3{
     font-family: Hind;
+    margin-left: -10px;
 }
 
 .nk-logo{
@@ -52,6 +57,10 @@ h3{
     text-decoration: underline;
 }
 
+.youtube, .twitter{
+    margin-left: 20px;
+}
+
 .youtube{
     display: flex;
     margin-left: auto;
@@ -59,6 +68,30 @@ h3{
     width: 150px;
     gap:0;
     margin-top: -16px;
+}
+
+.twitter{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+    gap:2x;
+    margin-top: -16px;
+    color: blue;
+}
+
+.twitter .nk a{
+    text-decoration: none;
+    color: rgba(2,167,240,255);
+    font-weight: bold;
+}
+
+.twitter .nk a:hover{
+    text-decoration: underline;
+}
+
+.twitter .yt{
+    flex:0.2;
 }
 
 footer{
