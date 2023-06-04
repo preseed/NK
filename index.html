@@ -113,11 +113,11 @@
         </p>
         <p class="bs2">Find out more yourself, if divinity wills.</p>
 
-        <button class="text-black p-2 bg-slate-400 rounded-2xl w-5/6 mb-5" onclick="noShow()">
+        <button class="text-black p-2 bg-slate-400 rounded-2xl w-1/3 md:w-1/6 mb-5" onclick="noShow()">
           N0 - N Zero
         </button>
-        <div id="N0" class="h-0 transition-all ease-in-out duration-700 overflow-hidden">
-            <div class="faq__content"style="width: 100%; background-color: rgb(123, 123, 123);border-radius:13px;box-shadow: 0.5px 0.5px 0.5px 1px #434c55;">
+        <div id="N0" class="h-0 transition-all ease-in-out duration-700 overflow-hidden opacity-0">
+            <div class="faq__content relative z-[20]"style="width: 100%; background-color: rgb(123, 123, 123);border-radius:13px;box-shadow: 0.5px 0.5px 0.5px 1px #434c55;">
                 <div class="pem" align="left">
                 </div>
                 <div class="content-impo1">
@@ -192,8 +192,9 @@ style="font-size:13px; left:25px;margin-top: -70px;color: #fff;font-family: Verd
 <br>
 </div>
 </div>
-        </div>
-        <img src="assets/Images/footer.png" alt="" class="footer " />
+</div>
+<img src="assets/Images/footer.png" alt="" class="footer " />
+        
       </footer>
     </center>
     <script>
@@ -211,9 +212,10 @@ style="font-size:13px; left:25px;margin-top: -70px;color: #fff;font-family: Verd
   <script>
     function noShow() {
         document.getElementById('N0').classList.toggle('h-0')
-        document.getElementById('N0').classList.toggle('sm:h-[1550px]')
-        document.getElementById('N0').classList.toggle('md:h-[1000px]')
-        document.getElementById('N0').classList.toggle('lg:h-[600px]')
+        document.getElementById('N0').classList.toggle('opacity-0')
+        // document.getElementById('N0').classList.toggle('sm:h-[1550px]')
+        // document.getElementById('N0').classList.toggle('md:h-[1000px]')
+        // document.getElementById('N0').classList.toggle('lg:h-[600px]')
     }
   </script>
 </html>
