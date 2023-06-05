@@ -23,6 +23,7 @@
         format("truetype");
       font-family: monsterrat;
     }
+
     .mont {
       font-family: monsterrat;
     }
@@ -58,10 +59,17 @@
       />
       <h1></h1>
       <h2>Waves on Zero</h2>
-      <p class="mumbai">From <br /><span>&nbsp;MUMBAI</span></p>
-      <img id="india" class="india" src="assets/Images/Ind.png" alt="" />
-      <br />
-      <p class="knownk">
+      <div class="flex gap-2 items-center justify-center">
+        <p class="text-9xl font-light">{</p>
+        <div>
+          <p class="mumbai">
+            From <br /><p class="mont text-3xl tracking-[10px] pb-2">&nbsp;MUMBAI</p>
+          </p>
+          <img id="india" class="india" src="assets/Images/Ind.png" alt="" />
+        </div>
+        <p class="text-9xl font-light ">}</p>
+      </div>
+      <p class="knownk text-left">
         Knowing NK's friends is the only way you can know NK in person. When you
         know him, you align yourself and your business, to, origin and
         consciousness respectively.
@@ -71,7 +79,7 @@
       <footer>
         <h3>For more visit:</h3>
         <br />
-        <div class="SM">
+        <div class="w-full flex justify-center gap-10">
           <a
             class="youtube"
             href="https://www.youtube.com/@preseedadmin"
@@ -83,6 +91,7 @@
               height="20"
               preserveAspectRatio="xMidYMid meet"
               viewBox="0 0 24 24"
+              class="w-12 h-12 hover:scale-110 transition-all ease-in-out duration-700"
             >
               <path
                 fill="currentColor"
@@ -101,6 +110,7 @@
               height="18"
               preserveAspectRatio="xMidYMid meet"
               viewBox="0 0 24 24"
+              class="w-12 h-12 hover:scale-110 transition-all ease-in-out duration-700"
             >
               <path
                 fill="currentColor"
@@ -110,7 +120,7 @@
           </a>
         </div>
 
-        <p class="bs1">
+        <p class="bs1 text-left">
           NOTE: We don't reveal information about our clients, nor do we work
           with competitors of our clients.
         </p>
@@ -124,7 +134,7 @@
         </button>
         <div
           id="N0"
-          class="text-left px-5 py-10 rounded-xl md:px-44 font-medium md:py-20 mont h-0 transition-all ease-in-out duration-700 gap-7 overflow-hidden opacity-0 mx-10 bg-blue-200 text-black flex flex-col items-center"
+          class="flex flex-col text-left px-5 py-10 rounded-xl md:px-44 font-medium md:py-20 mont h-0 transition-all ease-in-out duration-700 gap-7 overflow-hidden opacity-0 mx-10 bg-blue-200 text-black flex flex-col items-center"
         >
           <img
             alt="logo"
@@ -132,7 +142,7 @@
             width="100"
             class="pt-10"
           />
-          <p class="font-bold text-center py-24 text-5xl">
+          <p class="font-bold text-center py-24 text-2xl md:text-5xl">
             Purity | Shunya | Truth, applied.
           </p>
           <p>
@@ -164,7 +174,7 @@
           </p>
           <br />
           <a href="https://www.ebikego.com/" target="_blank"
-            ><b class="w-full text-center text-red-600"> EBikeGo </b></a
+            >        <img src="assets/Images/eBikeGo.png" alt="" class="footer h-10" /></a
           >
           <p>
             We don't understand Nishchal's 0, which is even pre-consciousness.
@@ -207,8 +217,6 @@
         return false;
       };
     </script>
-    <span class="curly1">{</span>
-    <span class="curly2">}</span>
   </body>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
