@@ -61,6 +61,7 @@ footer{
     width: 100%;
     height: 300px;
     margin-top: 6vh;
+    background-image: url("../Images/footer.png");
 }
 
 .knownk{
@@ -82,10 +83,13 @@ footer{
 
 .bs2{
     font-family:  yantramanav-thin;
-    font-weight: 800;
-    margin-top: 6vh;
-    margin-bottom: 10vh;
-    z-index: 99999;
+    position: absolute;
+    top: 10%; /* Adjust as necessary */
+    left: 50%; /* Adjust as necessary */
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0); /* Adjust as necessary */
+    font-size: calc( 15px + ( 24 - 15 ) * ( 100vw - 320px ) / ( 1920 - 320 ) );/* Adjust as necessary */
+    font-weight: bold;
 }
 
 .mumbai{
@@ -126,6 +130,35 @@ footer{
     width: 100%;
     height: auto;
 }
+
+.image-container {
+    position: relative;
+    width: 100%; /* Adjust as necessary */
+}
+  
+.image-container .text {
+    position: absolute;
+    font-family: yantramanav;
+    top: 90%; /* Adjust as necessary */
+    left: 50%; /* Adjust as necessary */
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust as necessary */
+    font-size: calc( 15px + ( 24 - 15 ) * ( 100vw - 320px ) / ( 1920 - 320 ) );/* Adjust as necessary */
+    font-weight: bold;
+}
+
+.arrow {
+    display: inline-block;
+    margin-left: 5px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;  
+    border-left: 4px solid rgb(250 204 21 / var(--tw-text-opacity));;  /* Arrow points to right */
+    transform: rotate(90deg); /* Make it point downwards */
+  }
+  
+  .dropdown-button.open .arrow {
+    transform: rotate(-90deg); /* Make it point upwards when button is open */
+  }
 
 @media screen and (max-width: 1190px)  {
     .curly1{
