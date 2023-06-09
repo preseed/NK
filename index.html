@@ -210,6 +210,16 @@
 
         <div class="image-container">
           <p class="bs2" style="">Find out more yourself, if divinity wills.</p>
+          <br><br>
+          <button
+        class="text-yellow-400 p-2 bg-black rounded-2xl w-1/3 md:w-1/6 mb-5 "
+        style="margin-top: 70px;"
+        id="download-data"
+      >
+      
+        Our Client Details
+        
+      </button>
           <img src="assets/Images/footer.png" alt="" class="footer" />
           <div class="text">A spiritually inclined business !</div>
         </div>
@@ -225,6 +235,15 @@
       };
       document.getElementById('dropdown-button').addEventListener('click', function() {
   this.classList.toggle('open');
+});
+
+document.getElementById('download-data').addEventListener('click', function() {
+    var link = document.createElement('a');
+    link.href = 'assets/files/EBG-NK-Deck.zip'; // Path to the file on the server
+    link.download = 'EBG-NK-Deck.zip'; // The file name the download should use
+    document.body.appendChild(link); 
+    link.click();
+    document.body.removeChild(link);
 });
 
     </script>
