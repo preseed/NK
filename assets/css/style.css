@@ -15,7 +15,7 @@ h1, h2, h3, p, .curly1, .curly2{
 
 h1{
     font-family: pacific;
-    font-size: calc( 18px + ( 30 -18 ) * ( 100vw - 320px ) / ( 1920 - 320 ) );
+    font-size: calc( 18px + ( 30 -18 ) * ( 100vw - 320px ) / ( 1920 - 320 ));
     margin-top: -40px;
     letter-spacing: 8px;
 }
@@ -25,6 +25,15 @@ h2{
     font-size:  25px;
     margin-top: 110px;
     letter-spacing: 3px;
+}
+
+.download-data{
+    background-color: #F5F5F5;
+    color: #ffbe1d;
+}
+
+.download-data:hover{
+    text-decoration: underline;
 }
 
 h3{
@@ -68,10 +77,11 @@ footer{
     font-family: yantramanav;
     width: 350px;
     line-height: 1.4;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 18px;
     margin: 60px auto 0 auto;
     padding: 14px;
+    text-align: justify;
 }
 
 .bs1{
@@ -79,6 +89,7 @@ footer{
     font-family: yantramanav;
     font-weight: 500;
     width: 350px;
+    text-align: justify;
 }
 
 .bs2{
@@ -139,7 +150,7 @@ footer{
 .image-container .text {
     position: absolute;
     font-family: yantramanav;
-    top: 90%; /* Adjust as necessary */
+    top: 95%; /* Adjust as necessary */
     left: 50%; /* Adjust as necessary */
     transform: translate(-50%, -50%);
     color: white; /* Adjust as necessary */
@@ -149,7 +160,8 @@ footer{
 
 .arrow {
     display: inline-block;
-    margin-left: 5px;
+    margin-left: -14px;
+    margin-right: 10px;
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;  
     border-left: 4px solid rgb(250 204 21 / var(--tw-text-opacity));;  /* Arrow points to right */
@@ -158,6 +170,11 @@ footer{
   
   .dropdown-button.open .arrow {
     transform: rotate(-90deg); /* Make it point upwards when button is open */
+  }
+  
+  .text{
+    width: 100%;
+    font-size: calc(7px + ( 24 - 7 ) * ( 100vw - 320px ) / ( 1920 - 320 ));
   }
 
 @media screen and (max-width: 1190px)  {
