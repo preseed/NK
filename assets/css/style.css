@@ -29,7 +29,7 @@ h2{
 
 .download-data{
     background-color: #F5F5F5;
-    color: #ffbe1d;
+    color: /*#ffbe1d*/ #306FB7;
 }
 
 .download-data:hover{
