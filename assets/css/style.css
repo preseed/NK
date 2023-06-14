@@ -175,6 +175,7 @@ footer{
   .text{
     width: 100%;
     font-size: calc(7px + ( 24 - 7 ) * ( 100vw - 320px ) / ( 1920 - 320 ));
+    color: #000;
   }
 
 @media screen and (max-width: 1190px)  {
